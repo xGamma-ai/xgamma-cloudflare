@@ -1,34 +1,39 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <div className='web-container'>
+      <div className='web-content'>
+      <h1 className='web-title'>
+        Technological Singularity is coming <span className='web-title-asterisk'>*</span>
+      </h1>
+      <p className='web-subtitle'>LLMs are here to stay.</p>
+      <div className='web-content-text'>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          AI progress is inevitable to slow anytime soon, so for now, LLMs are here to stay.
+        </p>
+        <p>
+          So what’s xGamma about? Just OSS.
+        </p>
+        <p>
+          Open Source tech has powered the web for more than 3 decades, now its time to take it to the next level. 
+        </p>
+        <p>
+          xGamma plans on creating standalone applications for the web, using experimental tech expanding into integration with AI models.
+        </p>
+        <p>
+          thanks- team xG.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <p className='web-footer'>
+        <a href="https://github.com/xGamma-ai" target="_blank" rel="noopener noreferrer">Github</a> 
+        &nbsp;|&nbsp;<a href="https://xgamma.in/about" target="_blank" rel="noopener noreferrer">About Us</a>
       </p>
-    </>
+      </div>
+    </div>
   )
 }
 
