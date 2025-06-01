@@ -9,7 +9,7 @@
 
 .web-title-asterisk {
   color: #FF0004;
-  animation: logo-spin 1s linear infinite;
+  /* animation: logo-spin 1s linear infinite; */
   font-family: 'Jacques Francois', sans-serif;
   display: inline-block;
   position: relative;
