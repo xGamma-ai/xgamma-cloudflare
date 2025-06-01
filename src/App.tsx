@@ -5,24 +5,24 @@ function App() {
     <div className='web-container'>
       <div className='web-content'>
       <h1 className='web-title'>
-        Technological Singularity is coming <span className='web-title-asterisk'>*</span>
+        Technological Singularity is coming<span className='web-title-asterisk'>*</span>
       </h1>
       <p className='web-subtitle'>LLMs are here to stay.</p>
       <div className='web-content-text'>
         <p>
-          AI progress is inevitable to slow anytime soon, so for now, LLMs are here to stay.
+          AI progress isn’t slowing down anytime soon—LLMs are here to stay.
         </p>
         <p>
           So what’s xGamma about? Just OSS.
         </p>
         <p>
-          Open Source tech has powered the web for more than 3 decades, now its time to take it to the next level. 
+          For over 30 years, open source technology has powered the backbone of the internet. Now, it's time to push the boundaries even further.
         </p>
         <p>
-          xGamma plans on creating standalone applications for the web, using experimental tech expanding into integration with AI models.
+          xGamma is building standalone web applications using cutting-edge experimental tech, with a focus on integrating seamlessly with AI models.
         </p>
         <p>
-          thanks- team xG.
+          — Team xG
         </p>
       </div>
       <p className='web-footer'>
