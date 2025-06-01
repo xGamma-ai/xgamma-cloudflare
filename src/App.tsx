@@ -1,4 +1,5 @@
 import './App.css'
+import xGammaLogo from './assets/xgamma-icon.png';
 
 function App() {
   return (
@@ -21,9 +22,12 @@ function App() {
         <p>
           xGamma is building standalone web applications using cutting-edge experimental tech, with a focus on integrating seamlessly with AI models.
         </p>
-        <p>
-          — Team xG
-        </p>
+        <div className='web-footer-container'>
+          <p>
+            — Team xG 
+          </p>
+          <img src={xGammaLogo} alt="A kitty" className='web-logo' width={"22px"}/>
+        </div>
       </div>
       <p className='web-footer'>
         <a href="https://github.com/xGamma-ai" target="_blank" rel="noopener noreferrer">Github</a> 
