@@ -5,7 +5,7 @@ function App() {
     <div className='web-container'>
       <div className='web-content'>
       <h1 className='web-title'>
-        Technological Singularity is coming<span className='web-title-asterisk'>*</span>
+        Technological Singularity is coming <span className='web-title-asterisk'>*</span>
       </h1>
       <p className='web-subtitle'>LLMs are here to stay.</p>
       <div className='web-content-text'>
