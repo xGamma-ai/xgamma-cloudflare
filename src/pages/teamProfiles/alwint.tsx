@@ -28,7 +28,7 @@ const AlwinT = () => {
   return (
     <div className={styles['alwin-entry']}>
       <div className={styles['alwin-header-div']}>
-        <img src={alwinImage} alt="alwin t" />
+        <img width="200px" height="200px" src={alwinImage} alt="alwin t" />
         <div>
           <h3>Alwin T Varghese</h3>
           <p>Software Engineer @ Myntra</p>
