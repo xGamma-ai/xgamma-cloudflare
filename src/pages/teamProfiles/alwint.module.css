@@ -70,3 +70,29 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .alwin-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+  }
+  .alwin-header-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .alwin-desc {
+    display: none;
+  }
+  .alwin-exp {
+    width: 280px;
+  }
+  .alwin-logo-controls {
+    display: flex;
+    flex-direction: column;
+  }
+}
