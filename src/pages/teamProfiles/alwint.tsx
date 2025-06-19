@@ -12,12 +12,12 @@ const AlwinT = () => {
     {
       icon: <Linkedin color="#ffffff" />,
       name: 'alwin-t',
-      url: 'http://linkedin.com/in/alwin-t-808315202/',
+      url: 'http://linkedin.com/in/alwin-t-808315202',
     },
     {
       icon: <Twitter color="#ffffff" />,
       name: 'alwin8080',
-      url: 'alwin8080',
+      url: 'http://x.com/alwin8080',
     },
     {
       icon: <Github color="#ffffff" />,
