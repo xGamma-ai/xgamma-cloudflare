@@ -10,6 +10,11 @@ const AlwinT = () => {
   const imageList = [image_1, image_2, image_4, image_3];
   const socials: ISocials[] = [
     {
+      icon: <Github color="#ffffff" />,
+      name: 'alwinsDen',
+      url: 'http://github.com/alwinsDen',
+    },
+    {
       icon: <Linkedin color="#ffffff" />,
       name: 'alwin-t',
       url: 'http://linkedin.com/in/alwin-t-808315202',
@@ -18,11 +23,6 @@ const AlwinT = () => {
       icon: <Twitter color="#ffffff" />,
       name: 'alwin8080',
       url: 'http://x.com/alwin8080',
-    },
-    {
-      icon: <Github color="#ffffff" />,
-      name: 'alwinsNest',
-      url: 'http://github.com/alwinsNest',
     },
   ];
   return (
