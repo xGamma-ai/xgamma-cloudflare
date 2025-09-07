@@ -21,7 +21,7 @@ const AlwinT = () => {
     },
     {
       icon: <Twitter color="#ffffff" />,
-      name: 'alwin8080',
+      name: 'Wizard Cat',
       url: 'http://x.com/alwin8080',
     },
   ];
