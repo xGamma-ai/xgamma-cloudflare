@@ -4,12 +4,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 import './index.css';
 import App from './App.tsx';
 import AlwinT from './pages/teamProfiles/alwint.tsx';
+import { pageTracker } from './articles/tracker.ts';
 const router = createBrowserRouter([
   {
     path: '/',
     Component: App,
   },
   { path: 'alwin', Component: AlwinT },
+  { path: `/article/${pageTracker().googleAuthTheKmpWay.path}`, Component: pageTracker().googleAuthTheKmpWay.component },
 ]);
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
