@@ -34,10 +34,10 @@ export async function onRequest(context) {
                 element.setAttribute("content", customTitle);
             },
         })
-        .on('meta[property="og:image"]', {
-            element(element) {
-                element.setAttribute("content", customPreviewImage);
-            },
-        })
+        // .on('meta[property="og:image"]', {
+        //     element(element) {
+        //         element.setAttribute("content", customPreviewImage);
+        //     },
+        // })
         .transform(response);
 }
