@@ -44,6 +44,6 @@ p {
 
     p,
     .codeblock {
-        font-size: clamp(.6rem, 1vw, .7rem);
+        font-size: clamp(.7rem, 1vw, .9rem);
     }
 }
