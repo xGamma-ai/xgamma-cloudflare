@@ -36,7 +36,7 @@ export async function onRequest(context) {
         })
         .on('meta[property="og:image"]', {
             element(element) {
-                element.setAttribute("href", customPreviewImage);
+                element.setAttribute("content", customPreviewImage);
             },
         })
         .transform(response);
