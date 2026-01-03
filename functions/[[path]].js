@@ -34,7 +34,7 @@ export async function onRequest(context) {
                 element.setAttribute("content", customTitle);
             },
         })
-        .on('link[rel="icon"]', {
+        .on('meta[property="og:image"]', {
             element(element) {
                 element.setAttribute("href", customPreviewImage);
             },
