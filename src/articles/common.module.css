@@ -29,6 +29,7 @@ h2 {
 p {
     margin-bottom: 5px;
     text-align: justify;
+    line-height: 23px;
 }
 
 .codeblock {
