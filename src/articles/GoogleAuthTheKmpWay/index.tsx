@@ -14,11 +14,11 @@ const GoogleAuthTheKmpWay = () => {
         <br />
         <p>This article explores integration of login via Credential bottom sheet UI and manual click of the login with google button for native android in a shared UI KMP app.</p>
         <br />
-        <h2>KMP Archietecture</h2>
+        <h3>KMP Archietecture</h3>
         <ImageHelper imageString={kmp1} />
         <p>Refer to <a href="https://github.com/xGamma-ai/project-dino">Project Dino code</a> for understanding of the archiecture. Basically, the UI layer of the application is shared between iOS and Android (composeApp module), with shared module acting as the common ground for business logic between UI and backend server, while Ktor-based server rests in the server module.</p>
         <br />
-        <h2>Sign in with Google problem</h2>
+        <h3>Sign in with Google problem</h3>
         <details>
             <summary className={style.summaryref}>
                 Read article references:
@@ -29,7 +29,7 @@ const GoogleAuthTheKmpWay = () => {
         <p>For long integrating Google auth cross-platform had been cumbersome due to lack of a unified library or methodology to do so. Also the problem of how do you integrate passkeys, password based logins with existing Google auth solutions?</p>
         <p>For android native, this problem has been largely resolved by Google credentials library. Though for KMP apps there exists <a href="https://github.com/mirzemehdi/KMPAuth">KMPAuth</a> library which sets up up Gauth for both iOS and android, but buried under layers of native libraries. This hides a ton of implementation details of the auth, which this article explores in depth.</p>
         <br />
-        <h2>KMP to native split</h2>
+        <h3>KMP to native split</h3>
         <p>Since we are trying to split the login methods to native iOS/Android implementation while using unified kotlin UI, we will split our login Composable across native modules with expect/actual.</p>
         <CodeBlock code={
             `

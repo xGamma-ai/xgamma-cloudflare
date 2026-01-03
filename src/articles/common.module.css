@@ -35,3 +35,15 @@ p {
     width: 100%;
     overflow-x: scroll;
 }
+
+@media screen and (max-width: 500px) {
+    .article {
+        width: 100vw;
+        padding: 15px;
+    }
+
+    p,
+    .codeblock {
+        font-size: clamp(.6rem, 1vw, .7rem);
+    }
+}
