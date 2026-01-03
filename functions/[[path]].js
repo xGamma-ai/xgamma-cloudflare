@@ -7,12 +7,12 @@ export async function onRequest(context) {
 
     // 2. Determine what the title/desc should be based on the URL
     // You can fetch this from an API, or use a switch statement
-    let customTitle = "Default Title";
-    let customDescription = "Default Description";
+    let customTitle = "xG: Free products for the AI race.";
+    let customDescription = "xGamma is a project that aims to create open source applications for the AI age.";
 
     if (url.pathname.includes("article/google-auth-the-kmp-way")) {
         customTitle = "Google Sign-in: The KMP Way";
-        customDescription = "Learn how to integrate Google Sign-in...";
+        customDescription = "This is a series of articles exploring a singular Kotlin UI development project. The aim is to demonstrate integration of native libraries specific to iOS/Android while keepign the UI layer lightweight and cross-platform.";
     }
 
     // 3. Rewrite the HTML on the fly
